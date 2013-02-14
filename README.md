@@ -10,6 +10,27 @@ Add this line to your application's Gemfile:
 gem 'darkmatter'
 ```
 
+## Usage
+
+```erb
+---
+title: Foo
+---
+
+Hello World
+```
+
+```erb
+<html>
+  <head>
+    <title><%= @page[:title] %></title>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
+```
+
 ## Contributing
 
 1. Fork it
