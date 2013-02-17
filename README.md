@@ -12,6 +12,8 @@ gem 'darkmatter'
 
 ## Usage
 
+The gem parses the YAML Front Matter from your view templates into the `@page` instance variable.
+
 **View**
 ```erb
 ---
