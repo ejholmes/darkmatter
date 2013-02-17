@@ -12,6 +12,7 @@ gem 'darkmatter'
 
 ## Usage
 
+**View**
 ```erb
 ---
 title: Foo
@@ -20,6 +21,7 @@ title: Foo
 Hello World
 ```
 
+**Layout**
 ```erb
 <html>
   <head>
